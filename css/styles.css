@@ -3,6 +3,10 @@
   --dark: #212121;
 }
 
+.header-span {
+    color: var(--blue);
+}
+
 .navigation-logo-link {
   font-family: "Raleway";
   font-weight: 700;
@@ -10,7 +14,6 @@
   line-height: 2;
   letter-spacing: 0.03em;
   color: #000000;
-  color: #2196f3;
 }
 
 .navigation-link,
