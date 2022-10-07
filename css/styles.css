@@ -36,7 +36,6 @@
   padding-left: 0;
 }
 
-.navigation-logo-link:focus,
 .navigation-link:focus,
 .contacts-link:focus,
 .footer-contacts-mail:focus,
@@ -118,17 +117,21 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white);
-  background: #188ce8;
+  background-color: var(--blue)
+}
 
+.services-button:hover { 
+  background: #188ce8;
 }
 
 .services-button:focus {
+  color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .features {
-  background: #f5f5f5;
+  background: var(--white);
 }
 
 .features-title {
@@ -230,11 +233,10 @@
 }
 
 .portfolio-button-press:focus {
-  background: #f5f4fa;
+  background: var(--blue);
 }
 
-.portfolio-button-press:hover,
-.services-button:hover {
+.portfolio-button-press:hover {
   background-color: var(--blue);
   color: var(--white);
 }
@@ -262,5 +264,4 @@
 
 .portfolio-background {
   background: var(--white);
-  border: 1px solid #eeeeee;
 }
