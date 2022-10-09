@@ -125,9 +125,9 @@
 }
 
 .services-button:focus {
-  color: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  background: #188ce8;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; */
 }
 
 .features {
@@ -234,6 +234,7 @@
 
 .portfolio-button-press:focus {
   background: var(--blue);
+  color: var(--white);
 }
 
 .portfolio-button-press:hover {
